@@ -76,6 +76,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* Typography */
+
 @font-face {
   font-family: 'LatoHairline';
   src: url('Lato-Hai-webfont.eot');
@@ -632,3 +633,91 @@ footer .nav li {
     page-break-after: avoid;
   }
 }
+/* Amendment - CSS table structure, implemented to hold the Training Session times - ^PS 05/07/2013 */
+
+.table-training
+{
+    background:#FAFAFA;
+    border-spacing:2;
+    font:18px LatoRegular;
+    padding:5px 0px;
+    width:100%;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#000000;
+}
+ 
+.th-training
+{
+    color:#FFFFFF;
+    background:#2980B9;
+    font-weight:bold;
+    padding:2px 0px;
+    text-align:center;
+    vertical-align:top;
+    border-style:solid;
+    border-width:1px;
+    border-color:#000000;
+}
+ 
+.tr-training
+{
+    color:7F8C8D;
+    font-weight:normal;
+    border-style:solid;
+    border-width:1px;
+    border-color:#000000;
+}
+.tr-training-head
+{
+    font-weight:bold;
+    color:#000000;
+    background:7F8C8D;
+    border-style:solid;
+    border-width:1px;
+    border-color:#000000;
+}
+ 
+.tr-training:hover td
+{
+    background:#2980B9;
+    color:#FFFFFF;
+}
+
+.td-training
+{
+    padding:15px;
+    text-align:center;
+    vertical-align:top;
+    border-style:solid;
+    border-width:1px;
+    border-color:#000000;
+}
+ 
+.tr-training:last-child td-training:first-child
+{
+    border-bottom-left-radius:8px;
+}
+ 
+.tr-training:last-child td-training:last-child
+{
+    border-bottom-right-radius:8px;
+}
+
+.p-spacing
+{
+  margin-bottom: 54px;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: normal;
+  font-weight: 400;
+  color: #34495E;
+  text-indent: 0px;
+  text-align: left;
+}
+
+/* End amendement - ^PS 05/07/2013 */
