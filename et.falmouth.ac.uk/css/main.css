@@ -352,6 +352,7 @@ margin-bottom: 26px;
   -o-transition: 0.25s;
   transition: 0.25s;
   -webkit-backface-visibility: hidden;
+  display:inline-block;
 }
 .btn-info {
   background-color: #3498db;
